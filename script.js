@@ -542,10 +542,10 @@ const picture = imgSelector => {
     });
   }
   blocks.forEach(block => {
-    block.addEventListener("mouseover", () => {
+    block.addEventListener("mouseenter", () => {
       showImg(block);
     });
-    block.addEventListener("mouseout", () => {
+    block.addEventListener("mouseleave", () => {
       hideImg(block);
     });
   });
